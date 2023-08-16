@@ -29,7 +29,7 @@ const connectDatabase = async () => {
   }
 };
 connectDatabase();
-const PORT = 8000;
+const PORT = 8001;
 app.listen(PORT, () => {
   console.log(`server is running on port ${PORT}..`);
 });
